@@ -1,0 +1,86 @@
+.main-content {
+  width: 960px;
+  margin: auto;
+}
+
+
+.blue {
+    color: rgb(0,126,229);
+    text-decoration: none;
+}
+.toppadding {
+  padding-top: 50px;
+}
+
+.bottompadding150px {
+  padding-bottom: 150px;
+
+}
+.button{
+  background-color: rgb(0,126,229);
+      width: 100%;
+      color: white;
+      border-radius: 5px;
+      height: 40px;
+      transition: all 0.2s ease-in-out;
+}
+
+
+.button:hover {
+  background-color: rgb(0,65,117);
+}
+
+.marginabove20px {
+  margin-top: 20px
+}
+body {
+  font-family: 'Open Sans';
+  color: rgb (68,68,68);
+  background-color: rgb(251,251,251);
+}
+
+td {
+  vertical-align: top;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+h1,h2 {
+  font-weight: 300;
+  line-height: 125%;
+}
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+.navigationbar {
+  color: rgb(0,126,229);
+}
+
+
+
+
+
+.h4footer {
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight:700;
+  margin-bottom:10px;
+  vertical-align: top;
+}
+
+.lifooter {
+  color: rgb(119,119,119);
+  list-style: none;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
+.ulfooter {
+    padding-left: 0;
+    vertical-align: top;
+    list-style: none;
+
+}
