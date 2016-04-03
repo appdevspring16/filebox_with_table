@@ -4,16 +4,14 @@
     <meta charset="utf-8">
     <title>Filebox</title>
 
-    <style media="screen">
-      td {
-        border:thin red solid;
-      }
-    </style>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,300italic,400italic,600italic,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="additional_styles.css" media="screen" title="no title" charset="utf-8">
 
   </head>
   <body>
 
-    <table>
+    <table class="main-content">
 
       <!-- Navigation -->
       <tr>
@@ -21,16 +19,16 @@
           <a href="#">[Icon placeholder] Filebox</a>
         </td>
 
-        <td colspan="2">
-          <a href="#">Download the app</a>
+        <td colspan="2" class="right-header">
+          <a href="#">Download app</a>
         </td>
 
-        <td colspan="2">
+        <td colspan="2" class="right-header">
           <a href="#">Sign in</a>
         </td>
 
-        <td colspan="2">
-          <a href="#">Try Filebox Business</a>
+        <td colspan="2" class="right-header">
+          <a href="#">Filebox Business</a>
         </td>
       </tr>
 
@@ -52,27 +50,36 @@
         </td>
 
         <td colspan="6">
-          <label for="full-name">Full name</label>
-          <input type="text" id="full-name" placeholder="Full name">
+          <form class="margin-above-top-sm">
+            <div>
+              <label for="full-name">Full name</label>
+              <input type="text" id="full-name" placeholder="Full name">
+            </div>
 
-          <label for="email-address">Email</label>
-          <input type="email" id="email-address" placeholder="Email">
+            <div>
+              <label for="email-address">Email</label>
+              <input type="email" id="email-address" placeholder="Email">
+            </div>
 
-          <label for="passphrase">Password</label>
-          <input type="password" id="passphrase" placeholder="Password">
+            <div>
+              <label for="passphrase">Password</label>
+              <input type="password" id="passphrase" placeholder="Password">
+            </div>
 
-          <label><input type="checkbox">I agree to <a href="#">Filebox terms</a></label>
+            <div>
+              <label><input type="checkbox"> I agree to <a href="#">Filebox terms</a></label>
+            </div>
 
-          <button class="primary-button" type="submit">Sign up for free</button>
-
-          <button class="primary-button" type="submit">[Icon placholder] Sign up free with Google</button>
-
+            <button class="primary-button" type="submit">Sign up for free</button>
+            <hr>
+            <button class="primary-button" type="submit">[Icon placholder] Sign up free with Google</button>
+          </form>
         </td>
       </tr>
 
       <!-- Take your docs anywhere -->
       <tr>
-        <td colspan="6">
+        <td colspan="6" class="padding-inside-top-md">
           <h2>Take your docs anywhere</h2>
 
           <p>
@@ -80,18 +87,18 @@
           </p>
         </td>
 
-        <td colspan="6">
+        <td colspan="6" class="padding-inside-top-md">
           <img src="images/docs-anywhere.png">
         </td>
       </tr>
 
       <!-- Send videos quickly -->
       <tr>
-        <td colspan="6">
+        <td colspan="6" class="padding-inside-top-md">
             <img src="images/send-videos-quickly.png">
         </td>
 
-        <td colspan="6">
+        <td colspan="6" class="padding-inside-top-md">
           <h2>Send videos quickly</h2>
 
           <p>
@@ -102,7 +109,7 @@
 
       <!-- Keep your photos safe -->
       <tr>
-        <td colspan="6">
+        <td colspan="6" class="padding-inside-top-md">
           <h2>Keep your photos safe</h2>
 
           <p>
@@ -110,17 +117,18 @@
           </p>
         </td>
 
-        <td colspan="6">
+        <td colspan="6" class="padding-inside-top-md">
           <img src="images/keep-your-photos-safe.png">
         </td>
       </tr>
+
       <!-- Work on slides together -->
       <tr>
-        <td colspan="6">
+        <td colspan="6" class="padding-inside-top-md">
           <img src="images/work-on-slides-together.png">
         </td>
 
-        <td colspan="6">
+        <td colspan="6" class="padding-inside-top-md">
           <h2>Work on slides together</h2>
 
           <p>
@@ -131,7 +139,7 @@
 
       <!-- Never lose a file again -->
       <tr>
-        <td colspan="6">
+        <td colspan="6" class="padding-inside-top-md">
           <h2>Never lose a file again</h2>
 
           <p>
@@ -139,100 +147,109 @@
           </p>
         </td>
 
-        <td colspan="6">
+        <td colspan="6" class="padding-inside-top-md">
           <img src="images/never-lose-a-file-again.png">
         </td>
       </tr>
 
       <!-- Get started now -->
       <tr>
-        <td colspan="4"></td>
+        <td colspan="3"></td>
 
-        <td colspan="4">
+        <td colspan="6" class="padding-inside-top-md padding-inside-bottom-lg">
           <h2>Get started now</h2>
-          
-          <label for="full-name">Full name</label>
-          <input type="text" id="full-name" placeholder="Full name">
+          <form class="margin-above-top-sm">
+            <div>
+              <label for="full-name">Full name</label>
+              <input type="text" id="full-name" placeholder="Full name">
+            </div>
 
-          <label for="email-address">Email</label>
-          <input type="email" id="email-address" placeholder="Email">
+            <div>
+              <label for="email-address">Email</label>
+              <input type="email" id="email-address" placeholder="Email">
+            </div>
 
-          <label for="passphrase">Password</label>
-          <input type="password" id="passphrase" placeholder="Password">
+            <div>
+              <label for="passphrase">Password</label>
+              <input type="password" id="passphrase" placeholder="Password">
+            </div>
 
-          <label><input type="checkbox">I agree to <a href="#">Filebox terms</a></label>
+            <div>
+              <label><input type="checkbox"> I agree to <a href="#">Filebox terms</a></label>
+            </div>
 
-          <button class="primary-button" type="submit">Sign up for free</button>
-
-          <button class="primary-button" type="submit">[Icon placholder] Sign up free with Google</button>
+            <button class="primary-button" type="submit">Sign up for free</button>
+            <hr>
+            <button class="primary-button" type="submit">[Icon placholder] Sign up free with Google</button>
+          </form>
         </td>
 
-        <td colspan="4"></td>
+        <td colspan="3"></td>
       </tr>
 
       <!-- Footer -->
       <tr>
-        <td colspan="2">
-          <h4>Filebox</h4>
+        <td colspan="2" class="td-footer">
+          <h4 class="h4-footer">Filebox</h4>
 
-          <ul>
-            <li>Desktop app</li>
-            <li>Mobile apps</li>
-            <li>Plans</li>
-            <li>Security</li>
+          <ul class="ul-footer">
+            <li class="li-footer">Desktop app</li>
+            <li class="li-footer">Mobile apps</li>
+            <li class="li-footer">Plans</li>
+            <li class="li-footer">Security</li>
           </ul>
         </td>
 
-        <td colspan="2">
-          <h4>Company</h4>
+        <td colspan="2" class="td-footer">
+          <h4 class="h4-footer">Company</h4>
 
-          <ul>
-            <li>About us</li>
-            <li>Jobs</li>
-            <li>Press</li>
-            <li>Blog</li>
+          <ul class="ul-footer">
+            <li class="li-footer">About us</li>
+            <li class="li-footer">Jobs</li>
+            <li class="li-footer">Press</li>
+            <li class="li-footer">Blog</li>
           </ul>
         </td>
 
-        <td colspan="2">
-          <h4>Support</h4>
+        <td colspan="2" class="td-footer">
+          <h4 class="h4-footer">Support</h4>
 
-          <ul>
-            <li>Help Center</li>
-            <li>Get started</li>
-            <li>Contact</li>
-            <li>Privacy &amp; terms</li>
+          <ul class="ul-footer">
+            <li class="li-footer">Help Center</li>
+            <li class="li-footer">Get started</li>
+            <li class="li-footer">Contact</li>
+            <li class="li-footer">Privacy &amp; terms</li>
           </ul>
         </td>
 
-        <td colspan="2">
-          <h4>Community</h4>
+        <td colspan="2" class="td-footer">
+          <h4 class="h4-footer">Community</h4>
 
-          <ul>
-            <li>Developers</li>
-            <li>Referrals</li>
-            <li>Forum</li>
+          <ul class="ul-footer">
+            <li class="li-footer">Developers</li>
+            <li class="li-footer">Referrals</li>
+            <li class="li-footer">Forum</li>
           </ul>
         </td>
 
-        <td colspan="2">
-          <h4>Connect</h4>
+        <td colspan="2" class="td-footer">
+          <h4 class="h4-footer">Connect</h4>
 
-          <ul>
-            <li>Twitter</li>
-            <li>Facebook</li>
-            <li>Google+</li>
-            <li>YouTube</li>
+          <ul class="ul-footer">
+            <li class="li-footer">Twitter</li>
+            <li class="li-footer">Facebook</li>
+            <li class="li-footer">Google+</li>
+            <li class="li-footer">YouTube</li>
           </ul>
         </td>
 
-        <td colspan="2">
-          <h4>Products</h4>
+        <td colspan="2" class="td-footer">
+          <h4 class="h4-footer">Products</h4>
 
-          <ul>
-            <li>Pro</li>
-            <li>Business</li>
-            <li>Enterprise</li>
+          <ul class="ul-footer">
+            <li class="li-footer">Pro</li>
+            <li class="li-footer">Business</li>
+            <li class="li-footer">Enterprise</li>
           </ul>
         </td>
       </tr>
