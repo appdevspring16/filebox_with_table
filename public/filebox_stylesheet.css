@@ -1,10 +1,7 @@
-td {
-  border: thin red solid;
-}
-
 .main-content {
   width: 960px;
   margin: auto;
+  background-color: rgb(251, 251, 251);
 }
 
 button {
@@ -13,4 +10,8 @@ button {
   height:40px;
   width: 200px;
   border-radius: 5px;
+}
+
+.body-format {
+  background-color: rgb(251, 251, 251);
 }
