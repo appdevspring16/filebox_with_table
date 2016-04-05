@@ -60,6 +60,10 @@ button{
   padding-top: 50px;
 }
 
+.padding-bottom{
+  padding-bottom: 150px;
+}
+
 .start{
   text-align: center;
 }
