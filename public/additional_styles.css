@@ -1,3 +1,11 @@
 .main-content {width: 960px; margin: auto;}
 
-td {border: thin blue solid;}
+body {background-color: rgb(251, 251, 251); color: rgb(68, 68,68); font-family: 'Open Sans', sans-serif;}
+
+.nav-color {color: rgb(0,126,229)}
+
+.hero {color: white;
+  text-align: center;
+  background: url("hero.png")
+  no-repeat center center;
+  background-size: cover; height: 300px;}
