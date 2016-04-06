@@ -1,0 +1,60 @@
+.main-content {
+  width: 960px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(68, 68, 68);
+  font-weight: 300;
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 460px;
+  border-radius:5px;
+}
+
+.Nevigation {
+  color: rgb(0, 126, 229);
+  font-weight: normal;;
+}
+
+.hero-cell {
+  height: 312px
+}
+
+.works-cell {
+  height: 209px;
+}
+
+.Get-started-cell {
+  text-align: center;
+}
+
+.h1 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(153, 153, 153);
+}
+
+.footer-cell {
+  text-align: left;;
+}
