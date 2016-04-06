@@ -12,8 +12,7 @@ padding-left:10px}
 body{
   background-color:rgb(251, 251, 251);
   color:rgb(68,68,68);
-  font-family; "Open Sans";
-
+  font-family: 'Open Sans', sans-serif;
 }
  .navigation-fmt{
    color:rgb(0,126,229);
@@ -35,4 +34,20 @@ h1, h2{
   font-weight:300;
   line-height:125%;
 
+}
+
+button{
+  background-color: rgb(0,126,229);
+width: 100%;
+color: white;
+border-radius: 5px;
+height: 40px;
+tex-align:center;
+
+}
+
+.text-get-started {
+
+
+  text-align: center;
 }
