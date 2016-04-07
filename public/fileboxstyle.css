@@ -2,12 +2,18 @@
 width: 960px;
 margin:auto;
 
+
 }
 
-td {border:thin red solid;
+
+
+td {
 vertical-align: top;
 padding-right:10px;
-padding-left:10px}
+padding-left:10px;
+
+}
+
 
 body{
   background-color:rgb(251, 251, 251);
@@ -50,14 +56,13 @@ border-radius: 5px;
 height: 40px;
 tex-align:center;
 
-
-
 }
 
+
+
 .text-get-started {
-
-
-  text-align: center;
+  padding-left: 0;
+  align-items: flex-start;
 }
 
 ul{
