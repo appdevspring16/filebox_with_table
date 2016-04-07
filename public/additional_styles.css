@@ -8,6 +8,13 @@ body{font-family: 'Open Sans', sans-serif;color:rgb(68,68,68)}
 .form_1{line-height: 35px; margin-top:20px;height: 189px; width:460px}
 .input_1{color:grey;}
 .div_1{margin:1px}
-.button_1{width:500px;height:40px;color:white;background-color: rgb(0,126,229);}
+.button_1{width:460px;height:40px;color:white;background-color: rgb(0,126,229);border-top-left-radius: 5px}
 .button_1:hover{background-color:rgb(0,75,255);color:white}
 .space_1{height:300px}
+.take_1{font-size:26px;font-weight: 300}
+.button_2{width:300px;height:40px;color:white;background-color: rgb(0,126,229);border-top-left-radius: 5px}
+.button_2:hover{background-color:rgb(0,75,255);color:white}
+.form_2{line-height: 35px; margin-top:20px;height: 100px; width:300px}
+.space_2{height:450px}
+.take_2{font-size: 16px;font-weight:bold;color:rgb(153,153,153);margin:12px}
+.take_3{font-size: 16px;color:rgb(153,153,153);margin:12px}
