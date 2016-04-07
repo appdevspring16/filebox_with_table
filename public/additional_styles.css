@@ -7,6 +7,10 @@
       margin-left: auto;
   }
 
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+
 .heading-row{
   text-align: center;
 }
@@ -40,7 +44,7 @@
 .photos-image{
   background: url("keep-your-photos-safe.png") no-repeat center center;
   background-size: cover;
-  height: 250px;
+  height: 270px;
   vertical-align: middle;
 }
 
@@ -54,7 +58,7 @@
 .never-lose-image{
   background: url("never-lose-a-file-again.png") no-repeat center center;
   background-size: cover;
-  height: 250px;
+  height: 260px;
   vertical-align: middle;
 }
 
