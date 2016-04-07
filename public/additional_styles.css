@@ -17,7 +17,7 @@
 
 .nav-bar{
   vertical-align: middle;
-  color: blue;
+  color: rgb(0,126,229);
   height: 35px
 }
 
@@ -26,6 +26,13 @@
   color: black;
   height: 200px
 }
+
+.get-started{
+  vertical-align: middle;
+  color: black;
+  height: 450px
+}
+
 
 .anywhere-image{
     background: url("docs-anywhere.png") no-repeat center center;
@@ -76,4 +83,31 @@ td {
     background-size: cover;
     height: 300px;
     vertical-align: middle;
+  }
+
+  button {
+    background-color: rgba(0, 126, 229, 1);
+    color: white;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  button:hover{
+    background-color: rgba(0, 65, 117, 1);
+  }
+
+  a {
+      color: rgb(0,126,229);
+      text-decoration: none;
+  }
+
+  hr {
+      display: block;
+      -webkit-margin-before: 0.5em;
+      -webkit-margin-after: 0.5em;
+      -webkit-margin-start: auto;
+      -webkit-margin-end: auto;
+      border-style: inset;
+      border-width: 1px;
   }
