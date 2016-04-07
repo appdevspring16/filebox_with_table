@@ -30,6 +30,11 @@ td {
     padding-right: 10px;
 }
 
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
 table {
   display: table;
   border-collapse: separate;
@@ -91,11 +96,6 @@ li {
   margin: auto;
 }
 
-td {
-  vertical-align: top;
-  padding-left: 10px;
-  padding-right: 10px;
-}
 
 /* Classes */
 
