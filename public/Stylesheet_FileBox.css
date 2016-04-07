@@ -53,8 +53,18 @@ button {
   font-size: 16px;
   font-weight: bold;
   color: rgb(153, 153, 153);
+  text-align: center;
 }
 
 .footer-cell {
-  text-align: left;;
+  text-align: left;
+  height: 193px;
+}
+
+.footer {
+  display: list-item;
+  list-style-image: none;
+  text-align: left;
+  list-style-position: outside;
+  list-style-type: none;
 }
