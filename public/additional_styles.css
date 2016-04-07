@@ -1,0 +1,80 @@
+.main-content{
+  width: 100%;
+}
+
+body{
+  background-color: rgb(251,251,251);
+  font-family: 'Open Sans', sans-serif;
+  width: 960px;
+  margin:auto;
+}
+
+table{
+display: table;
+border-collapse: separate;
+}
+
+.navigation{
+  text-align: left;
+  color: rgb(0,126,229);
+  cursor: auto;
+  text-decoration: none;
+}
+
+.hero{
+  background: url("hero.png") no-repeat center bottom;
+    background-size: cover;
+    height: 300px;
+}
+
+button{
+  background-color: rgb(0,126,229);
+  color: white;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.get-started{
+  text-align: left;;
+}
+
+.footer-header{
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px
+}
+
+.blue-text{
+  color: blue;
+}
+
+h1, h2{
+  font-weight: 300;
+  line-height: 125%;
+  display: block;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+label{
+  cursor: default;
+}
+
+h1{
+  font-size: 2em;
+}
+
+td{
+  vertical-align: top;
+}
+
+a{
+  color: rgb(0,126,229);
+  text-decoration: none;
+}
