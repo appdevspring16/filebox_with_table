@@ -9,7 +9,7 @@ body {
 }
 
 td {
-  border: thin red solid;
+  border: none;
 }
 
 h2 {
@@ -29,7 +29,17 @@ p {
 }
 
 a {
+  color: rgb(0,126,229);
   text-decoration: none;
+}
+
+li {
+  list-style: none;
+  line-height: 2em;
+}
+
+div {
+  padding-left: 40px;
 }
 
 button {
@@ -46,4 +56,39 @@ button:hover {
 
 .header {
   color: rgb(0,126,229);
+}
+
+.bottom-form {
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+
+.footer {
+  color: rgb(153,153,153);
+  font-weight: 500;
+}
+
+.footer-titles {
+  display: block;
+  padding-top: 0;
+  font-weight: 700;
+  color: rgb(153,153,153);
+}
+
+.first-list {
+  color: rgb(68,68,68);
+  list-style: none;
+}
+
+.first-list-items {
+  line-height: 1.45em;
+}
+
+.footer-padding {
+  vertical-align: top;
+}
+
+.info-padding {
+  padding-top: 70px;
+  padding-right: 50px;
 }
