@@ -18,6 +18,11 @@ button {
   border-radius:5px;
 }
 
+.Nevigation-cell {
+  height: 22px;
+}
+
+
 .Nevigation {
   color: rgb(0, 126, 229);
   font-weight: normal;;
@@ -32,7 +37,28 @@ button {
 }
 
 .Get-started-cell {
-  text-align: center;
+  text-align: left;;
+  height: 457px;
+}
+
+.take-docs-cell {
+height: 257px;
+}
+
+.send-videos-cell {
+height: 245px;
+}
+
+.keep-photos-cell {
+height: 275px;
+}
+
+.slides-together-cell {
+height: 275px;
+}
+
+.never-lose-cell {
+height: 275px;
 }
 
 .h1 {
