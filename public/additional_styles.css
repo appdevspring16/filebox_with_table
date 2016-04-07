@@ -23,6 +23,41 @@
   height: 200px
 }
 
+.anywhere-image{
+    background: url("docs-anywhere.png") no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    vertical-align: middle;
+  }
+
+.video-image{
+  background: url("send-videos-quickly.png") no-repeat center center;
+  background-size: cover;
+  height: 250px;
+  vertical-align: middle;
+}
+
+.photos-image{
+  background: url("keep-your-photos-safe.png") no-repeat center center;
+  background-size: cover;
+  height: 250px;
+  vertical-align: middle;
+}
+
+.slides-image{
+  background: url("work-on-slides-together.png") no-repeat center center;
+  background-size: cover;
+  height: 250px;
+  vertical-align: middle;
+}
+
+.never-lose-image{
+  background: url("never-lose-a-file-again.png") no-repeat center center;
+  background-size: cover;
+  height: 250px;
+  vertical-align: middle;
+}
+
 td {
   border: thin grey solid;
   vertical-align: top;
