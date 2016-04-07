@@ -5,11 +5,20 @@
 body{
   background-color: rgb(251,251,251);
   font-family: 'Open Sans', sans-serif;
+  width: 960px;
+  margin:auto;
+}
+
+table{
+display: table;
+border-collapse: separate;
 }
 
 .navigation{
-  text-align: center;
-  color: rgb(0,126,229)
+  text-align: left;
+  color: rgb(0,126,229);
+  cursor: auto;
+  text-decoration: none;
 }
 
 .hero{
@@ -27,12 +36,45 @@ button{
 }
 
 .get-started{
-  text-align: center;
+  text-align: left;;
 }
 
 .footer-header{
   color: rgb(153,153,153);
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 10px 
+  margin-bottom: 10px
+}
+
+.blue-text{
+  color: blue;
+}
+
+h1, h2{
+  font-weight: 300;
+  line-height: 125%;
+  display: block;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+label{
+  cursor: default;
+}
+
+h1{
+  font-size: 2em;
+}
+
+td{
+  vertical-align: top;
+}
+
+a{
+  color: rgb(0,126,229);
+  text-decoration: none;
 }
