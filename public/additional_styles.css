@@ -1,0 +1,40 @@
+.main-content {
+      width: 960px;
+      margin: auto;
+      margin-top: auto;
+      margin-right: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+  }
+
+.heading-row{
+  text-align: center;
+}
+
+.nav-bar{
+  vertical-align: middle;
+  color: blue;
+  height: 35px
+}
+
+.content{
+  vertical-align: top;
+  color: black;
+  height: 200px
+}
+
+td {
+  border: thin grey solid;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hero{
+  text-align: center;
+    color: white;
+    background: url("hero.png") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    vertical-align: middle;
+  }
