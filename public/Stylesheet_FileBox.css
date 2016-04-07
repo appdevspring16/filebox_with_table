@@ -1,0 +1,107 @@
+.main-content {
+  width: 960px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(68, 68, 68);
+  font-weight: 300;
+  background-color: rgb(251,251,251);
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
+  width: 460px;
+  border-radius:5px;
+}
+
+.Nevigation-cell {
+  height: 22px;
+}
+
+
+.Nevigation {
+  color: rgb(0, 126, 229);
+  font-weight: normal;;
+}
+
+.hero-cell {
+  height: 312px
+}
+
+.works-cell {
+  height: 209px;
+}
+
+.Get-started-cell {
+  text-align: left;;
+  height: 457px;
+}
+
+.take-docs-cell {
+height: 257px;
+}
+
+.send-videos-cell {
+height: 245px;
+}
+
+.keep-photos-cell {
+height: 275px;
+}
+
+.slides-together-cell {
+height: 275px;
+}
+
+.never-lose-cell {
+height: 275px;
+}
+
+.h1 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(153, 153, 153);
+  margin-bottom: 10px;
+}
+
+.footer-cell {
+  text-align: left;
+  height: 193px;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer {
+  display: list-item;
+  list-style-image: none;
+  text-align: left;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 10px;
+  padding-left: 0px;
+}
+
+a {
+  color: rgb(0, 126, 229);
+  text-decoration: none;
+}
