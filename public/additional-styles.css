@@ -1,0 +1,18 @@
+.main-content {
+  background-color: rgb(251, 251, 251);
+  width: 70%;
+  font-size: 16px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+td {border: thin red solid;}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(251,251,251);
+}
+.top-row {
+color: blue;
+}
+.first-pic {
+  width: 100%;
+}
