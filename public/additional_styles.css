@@ -10,7 +10,7 @@ h1, h2 {
 }
 
 h3{
-
+  color: rgb(153, 153, 153);
 }
 p {
   font-size: 20px;
@@ -20,13 +20,9 @@ p {
 
 td{
   vertical-align: top;
+  padding-top: 50px;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-.get-started-main{
-  padding-top:50px;
-  padding-bottom: 150px;
 }
 
 button{
@@ -37,6 +33,11 @@ button{
   border-radius: 5px;
 }
 
+a{
+  color:rgb(0, 126, 229);
+  text-decoration: none;
+}
+
 .main-content{
   width: 960px;
   margin:auto;
@@ -45,6 +46,11 @@ button{
 .header-row{
   text-align: left;
   color: rgb(0, 126, 229);
+}
+
+.get-started-main{
+  padding-top:50px;
+  padding-bottom: 150px;
 }
 
 .ul-footer{
