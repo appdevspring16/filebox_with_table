@@ -2,6 +2,7 @@
   font-family: 'Open Sans', sans-serif;
   color: rgb(68,68,68);
   background-color: rgb(251,251,251);
+
 }
 
 .top-link{
@@ -55,4 +56,12 @@
 
 .footer-col{
   vertical-align: top;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300px;
+  line-height: 175%;
+  color: rgb(68,68,68);
+  font-family: "Open Sans";
 }
