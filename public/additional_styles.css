@@ -1,0 +1,111 @@
+.main-table {
+  width: 960px;
+  margin: auto;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+/*
+table {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
+}
+*/
+
+body {
+  color: rgb(68, 68, 68);
+  background-color: rgb(251, 251, 251);
+  font-family: 'Open Sans', sans-serif;
+}
+
+td {
+  /*border: thin white solid;*/
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+a {
+  color: rgb(0,126,229);
+  text-decoration: none;
+}
+
+h1,h2 {
+  font-weight: 300;
+  line-height: 125%
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.navbar {
+  color: purple;
+}
+
+.hero {
+  text-align: center;
+}
+
+.filebox-works-cell {
+  text-align: left;
+}
+
+.sign-up-button {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(0, 126, 229);
+}
+
+hr {
+  color: rgb(68, 68, 68)
+}
+
+ .padding-inside-top-md {
+   padding-top: 50px;
+ }
+
+.get-started-cell {
+  text-align: left;
+}
+
+.footer-cell {
+  text-align: left;
+}
+
+.foot-head {
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.foot-ul {
+  list-style: none;
+}
+
+.foot-li {
+  color: gray;
+}
