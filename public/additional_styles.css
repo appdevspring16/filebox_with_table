@@ -20,7 +20,6 @@ p {
 
 td{
   vertical-align: top;
-  padding-top: 50px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -46,6 +45,10 @@ a{
 .header-row{
   text-align: left;
   color: rgb(0, 126, 229);
+}
+
+.padding-top{
+    padding-top: 50px;
 }
 
 .get-started-main{
