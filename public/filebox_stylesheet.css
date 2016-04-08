@@ -73,6 +73,14 @@ a.links-format:active {
   text-decoration: none;
 }
 
+.footer {
+  color: rgb(153,153,153);
+}
+
+.footer-margin {
+  margin-bottom: 10px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
