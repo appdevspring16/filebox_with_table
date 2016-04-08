@@ -1,0 +1,73 @@
+body {
+  font-family: 'Open Sans';
+  display: block;
+  margin: 8px;
+  background-color: rgb(251, 251, 251);
+}
+
+.navbar {
+  color: rgb(0,126,229);
+}
+.navbar-link {
+  color: rgb(0,126,229);
+  text-decoration: none;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  font-family: 'open sans';
+  font-weight: 300;
+}
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+.margin-above-top-sm {
+  margin-top: 20px;
+}
+.primary-button {
+  background-color: rgb(0,126,229);
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  transition: all 0.2s ease-in-out;}
+  table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;}
+
+    .padding-inside-top {
+    padding-top: 50px;
+}
+.padding-inside-bottom {
+    padding-bottom: 150px;
+}
+td {
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.h4-footer {
+    color: rgb(153,153,153);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.ul-footer {
+    list-style: none;
+    padding-left: 0;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+}
+.li-footer {
+    color: rgb(119,119,119);
+    margin-bottom: 10px;
+}
+li {
+    display: list-item;
+}
