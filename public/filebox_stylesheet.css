@@ -83,6 +83,10 @@ a.links-format:active {
   font-weight: 700;
 }
 
+li {
+  color: rgb(68,68,68);
+}
+
 .li-footer-format {
   margin-bottom: 10px;
   color: rgb(119,119,119);
