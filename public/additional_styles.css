@@ -39,17 +39,25 @@ h1 {
 
 h2 {
   font-weight: 300;
+  line-height: 125%;
 }
 
 p {
   font-size: 20px;
   font-weight: 300;
+  line-height: 175%
+}
+
+td {
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .signup-button {
   background-color: rgb(0,126,229);
   height: 40px;
-  width: 50%;
+  width: 100%;
   color: white;
   border-radius: 5px;
 }
