@@ -6,12 +6,14 @@
 body {
   color: rgb(68,68,68);
   font-family: "Open Sans";
+  background-color: rgb(251, 251, 251);
 }
 
 td{
   padding-left: 10px;
   padding-right: 10px;
   vertical-align: top;
+  border: red thin solid;
 
 }
 
@@ -80,4 +82,13 @@ li{
   border-radius: 5px;
   height: 40px;
   transition: all 0.2s ease-in-out;
+}
+
+.space{
+  padding-top: 150px;
+}
+
+
+.space-up{
+  padding-top: 30px
 }
