@@ -1,0 +1,91 @@
+.main-content {
+width: 960px;
+margin:auto;
+
+
+}
+
+
+
+td {
+vertical-align: top;
+padding-right:10px;
+padding-left:10px;
+
+}
+
+body{
+  background-color:rgb(251, 251, 251);
+  color:rgb(68,68,68);
+  font-family: 'Open Sans', sans-serif;
+}
+ .navigation-fmt{
+   color:rgb(0,126,229);
+
+a{
+   color:rgb(0,126,229);
+
+}
+
+ }
+
+.hero-image {
+  background: url("hero.png")no-repeat center bottom;
+  background-size: cover;
+  height: 300px;
+}
+
+p{
+  font-size: 20px;
+font-weight: 300;
+line-height: 175%;
+}
+
+.padding-rows{
+  padding-top: 50px;
+}
+
+.padding-signin {
+  padding-bottom: 150px;
+}
+
+h1, h2{
+  font-weight:300;
+  line-height:125%;
+
+}
+
+button{
+  background-color: rgb(0,126,229);
+width: 100%;
+color: white;
+border-radius: 5px;
+height: 40px;
+tex-align:center;
+
+}
+
+
+
+.text-get-started {
+  padding-left: 0;
+  align-items: flex-start;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+li{
+  rgb(119,119,119);
+      margin-bottom: 10px;
+}
+
+h4 {
+  text-align: : center;
+  color:rgb(153,153,153);
+  font-weight: 700;
+
+}
