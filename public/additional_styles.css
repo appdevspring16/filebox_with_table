@@ -1,0 +1,61 @@
+.main-content {
+  width: 960px;
+  margin: auto;
+}
+
+body {
+  background-color: rgb(251, 251, 251);
+  color: rgb(68,68,68);
+  font-family: 'Open Sans', sans-serif;
+}
+
+.links {
+  color: rgb(0,126,229);
+}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+.main-text {
+  font-size: 20;
+  font-weight: 300;
+}
+
+button {
+  background-color: rgb(0, 126, 229);
+color: white;
+height: 40px;
+width: 100%;
+border-radius: 5px;
+}
+
+.top-text {
+  vertical-align: top;
+  padding-top: 25px;
+}
+
+.other-text {
+  vertical-align: top;
+  padding-top: 50px;
+}
+
+.footer {
+  vertical-align: top;
+  color: rgb(119,119,119);
+}
+
+.footer-title {
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.get-started {
+  text-align: Left;
+  padding: 100px;
+}
+
+  .footer-margin {
+  margin-bottom: 0px;
+  }
