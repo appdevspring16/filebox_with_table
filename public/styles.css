@@ -5,3 +5,11 @@
 td {
   border: thin red solid;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center_align {
+  text-align: center;
+}
