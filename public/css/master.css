@@ -1,0 +1,84 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 125%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+.main-content {
+  width: 960px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.top-nav {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0,126,229);
+}
+
+#logo {
+  text-align: left;
+}
+
+.hero {
+  text-align: center;
+  background: url("../images/main-hero.jpg") no-repeat center center;
+  height: 300px;
+  background-size: cover;
+  color: #fff;
+}
+
+td {
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  background-color: rgb(0,126,229);
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(0, 65, 117);
+}
+
+.footer {
+  vertical-align: top;
+  color: rgb(153,153,153);
+  list-style: none;
+}
+
+.inner-top-20 {
+  padding-top: 20px;
+}
+
+.inner-top-50 {
+  padding-top: 50px;
+}
+
+.footer li {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+  padding-left: none;
+}
+
+.get-started {
+  padding: 20px 0 100px 0;
+}
