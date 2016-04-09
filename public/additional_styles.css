@@ -21,6 +21,8 @@ a {
 .foot-det {
   color: rgb(119,119,119);
   margin-bottom: 10px;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 body {
