@@ -4,44 +4,75 @@
 
 }
 
+a {
+  color: rgb(0,126,229);
+  text-decoration: none;
+}
+p {
+  font-size: 20px;
+  display: block;
+  font-weight: 300;
+  line-height: 175%;
+}
+.margin-above-top {
+  margin-top: 20px;
+}
+
+.primary-button {
+  background-color: rgb(0,126,229);
+width: 100%;
+color: white;
+border-radius: 5px;
+height: 40px;
+transition: all 0.2s ease-in-out;
+}
 td {
-  border: thin grey solid;
+  /*border: thin grey solid;*/
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 table {
-color: grey;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: grey;
 }
 body {
   background-color: rgb(251, 251, 251);
-color: rgb(68,68,68);
-font-family: "Open Sans";
-
-
+  color: rgb(68,68,68);
+  font-family: 'Open Sans', sans-serif;
 }
 .bar1 {
-
   width: 200px;
   height: 40px;
-  color: blue;
+  color: rgb(0, 126, 229);
+  /*font-size: 18px;*/
 }
+
 .barall {
   width: 200px;
   height: 400px;
 
-  }
-  .footer {
-    text-align: left;
+}
+.footer {
+  text-align: left;
 
-    color: grey;
-    vertical-align: top;
-    padding-left: 10px;
-    padding-right: 10px;
+  color: grey;
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 h2 {
-    display: block;
-    font-size: 1.5em;
-    -webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: rgb(0,126,229);
 }
