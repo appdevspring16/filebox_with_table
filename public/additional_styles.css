@@ -1,0 +1,52 @@
+.main-content {
+  width: 960px;
+  margin: auto;
+}
+
+.header-cell {
+  color: rgb(0,126,229);
+}
+
+.footer {
+  color: rgb(153,153,153);
+}
+
+.f-list {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+button {
+  background-color: rgb(0,126,229);
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+h1, h2 {
+  font-weight: 300;
+    line-height: 125%;
+}
+
+td {
+    vertical-align: top;
+    padding-left: 10px;
+    padding-righ: 10px;
+}
+body {
+  color: rgb(68,68,68);
+  font-family: 'Open Sans', sans-serif;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+.padding-inside-bottom {
+  padding-bottom: 150px;
+}
