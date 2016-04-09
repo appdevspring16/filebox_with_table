@@ -45,6 +45,10 @@ line-height: 175%;
   padding-top: 50px;
 }
 
+.padding-signin {
+  padding-bottom: 150px;
+}
+
 h1, h2{
   font-weight:300;
   line-height:125%;
