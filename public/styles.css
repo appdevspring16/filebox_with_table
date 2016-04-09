@@ -57,3 +57,20 @@ h1, h2 {
   list-style: none;
   padding-left: 0;
 }
+
+
+
+.padding-inside-top-md {
+  padding-top: 50px;
+}
+
+
+
+.padding-inside-bottom-lg {
+  padding-bottom: 150px;
+}
+
+
+.margin-above-top-sm {
+  margin-top: 20px;
+}
