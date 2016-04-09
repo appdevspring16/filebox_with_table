@@ -3,23 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title>Filebox</title>
+    <link rel="stylesheet" href="additional_styles.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
   </head>
   <body>
 
-<table>
+<table class="main-content">
 
   <tr> <!-- Navigation -->
     <td colspan="6">
-      Filebox
+      <a href="https://www.google.com/" class="links">
+        <i class="fa fa-dropbox"></i>
+        Filebox
+      </a>
     </td>
     <td colspan="2">
+      <a href="https://www.google.com/" class="links">
       Download the app
+      </a>
     </td>
     <td colspan="2">
+      <a href="https://www.google.com/" class="links">
       Sign in
+      </a>
     </td>
     <td colspan="2">
+      <a href="https://www.google.com/" class="links">
       Try Filebox Business
+      </a>
     </td>
   </tr>
 
@@ -30,8 +42,8 @@
   </tr>
 
   <tr> <!-- Sign-up -->
-    <td colspan="6">
-      <h2>Filebox works the way you do</h2>
+    <td colspan="6" class="top-text">
+      <h1>Filebox works the way you do</h1>
       <p>Get to all your files from anywhere, on any device, and share them with anyone. </p>
     </td>
 
@@ -50,13 +62,17 @@
           <input type="text" placeholder="Password">
         </div>
         <div class="">
-          I agree to Filebox terms
+          <label>
+            <input type="Checkbox">
+            I agree to <a href="https://www.google.com" class="links">Filebox terms</a>
+          </label>
         </div>
         <div class="">
           <button type="button" name="button">
             Sign up for free
           </button>
         </div>
+        <hr>
         <div class="">
           <button type="button" name="button">
             Sign up free with Google
@@ -67,11 +83,11 @@
   </tr>
 
   <tr> <!-- Take your docs anywhere -->
-    <td colspan="6">
+    <td colspan="6" class="other-text">
       <h2>
         Take your docs anywhere
       </h2>
-      <p>
+      <p class="main-text">
         Save files on your computer, then access them on your phone from the road. Everything you keep in Filebox is synced automatically to all your devices.
       </p>
     </td>
@@ -86,22 +102,22 @@
       <img src="send-videos-quickly.png" alt="">
     </td>
 
-    <td colspan="6">
+    <td colspan="6" class="other-text">
       <h2>
         Send videos quickly
       </h2>
-      <p>
+      <p class="main-text">
         Send your entire wedding video to family with a simple link. It’s easy to share large files with anyone — even if they don’t have a Filebox account.
       </p>
     </td>
   </tr>
 
   <tr> <!-- Keep your photos safe -->
-    <td colspan="6">
+    <td colspan="6" class="other-text">
       <h2>
         Keep your photos safe
       </h2>
-      <p>
+      <p class="main-text">
         Back up vacation photos automatically from your phone or computer. That way, memories are safe as soon as you make them, and you can relive them from any device.
       </p>
     </td>
@@ -116,11 +132,11 @@
       <img src="work-on-slides-together.png" alt="">
     </td>
 
-    <td colspan="6">
+    <td colspan="6" class="other-text">
       <h2>
         Work on slides together
       </h2>
-      <p>
+      <p class="main-text">
         Edit a presentation with teammates without emailing files back and forth. When you edit a file in a shared folder, everyone gets the update automatically.
       </p>
     </td>
@@ -128,19 +144,25 @@
 
   <tr> <!-- Never lose a file again -->
     <td colspan="6">
-      Never lose a file again
+      <h2>Never lose a file again</h2>
+      <p class="main-text">
+        Left your phone on the train? Your photos, docs, and videos are safe. Just sign in to Filebox from any device, and your files will be there waiting for you.
+      </p>
     </td>
 
-    <td colspan="6">
+    <td colspan="6" class="other-text">
       <img src="never-lose-a-file-again.png" alt="">
     </td>
   </tr>
 
   <tr> <!-- Get started now -->
-    <td colspan="12">
-      <div>
+    <td colspan="4" class="pre-footer">
+
+    </td>
+    <td colspan="4" class="get-started">
+      <h2>
         Get started now
-      </div>
+      </h2>
       <div>
         Full name
         <input type="text" placeholder="Full name">
@@ -154,27 +176,36 @@
         <input type="text" placeholder="Password">
       </div>
       <div>
-        I agree with Filebox terms
+        <label>
+          <input type="Checkbox">
+          I agree to <a href="https://www.google.com">Filebox terms</a>
+        </label>
       </div>
       <div>
         <button type="button" name="button">
           Sign up for free
         </button>
       </div>
+
+      <hr>
+
       <div class="">
         <button type="button" name="button">
           Sign up free with Google
         </button>
       </div>
     </td>
+    <td colspan="4">
+
+    </td>
   </tr>
 
   <tr> <!-- Footer -->
-    <td colspan="2">
+    <td colspan="2" class="footer">
       <h4>
         Filebox
       </h4>
-      <p>
+      <p >
         Desktop app
       </p>
       <p>
@@ -188,7 +219,7 @@
       </p>
     </td>
 
-    <td colspan="2">
+    <td colspan="2" class="footer">
       <h4>
         Company
       </h4>
@@ -206,7 +237,7 @@
       </p>
     </td>
 
-    <td colspan="2">
+    <td colspan="2" class="footer">
       <h4>
         Support
       </h4>
@@ -224,7 +255,7 @@
       </p>
     </td>
 
-    <td colspan="2">
+    <td colspan="2" class="footer">
       <h4>Community
       </h4>
       <p>
@@ -238,7 +269,7 @@
       </p>
     </td>
 
-    <td colspan="2">
+    <td colspan="2" class="footer">
       <h4>
         Connect
       </h4>
@@ -256,7 +287,7 @@
       </p>
     </td>
 
-    <td colspan="2">
+    <td colspan="2" class="footer">
       <h4>
         Products
       </h4>
