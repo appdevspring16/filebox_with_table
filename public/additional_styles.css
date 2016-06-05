@@ -1,43 +1,22 @@
-.main-table {
-  width: 960px;
-  margin: auto;
-  display: table;
-  border-collapse: separate;
-  border-spacing: 2px;
-  border-color: grey;
-}
+/* Additional styles */
 
-/*
-table {
-  display: table;
-  border-collapse: separate;
-  border-spacing: 2px;
-  border-color: grey;
-}
-*/
+/* Base typography */
 
 body {
-  color: rgb(68, 68, 68);
   background-color: rgb(251, 251, 251);
-  font-family: 'Open Sans', sans-serif;
+  color: rgb(68,68,68);
+  font-family: "Open Sans", sans-serif;
 }
 
-td {
-  /*border: thin white solid;*/
-  vertical-align: top;
-  padding-left: 10px;
-  padding-right: 10px;
+h1, h2 {
+  font-weight: 300;
+  line-height: 125%;
 }
 
 p {
   font-size: 20px;
   font-weight: 300;
   line-height: 175%;
-  display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
 }
 
 a {
@@ -45,67 +24,127 @@ a {
   text-decoration: none;
 }
 
-h1,h2 {
-  font-weight: 300;
-  line-height: 125%
+/* Grid */
+
+.main-content {
+  width: 960px;
+  margin: auto;
 }
 
-h2 {
-  display: block;
-  font-size: 1.5em;
-  -webkit-margin-before: 0.83em;
-  -webkit-margin-after: 0.83em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
+td {
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.navbar {
-  color: purple;
-}
+/* Footer styles */
 
-.hero {
-  text-align: center;
-}
-
-.filebox-works-cell {
-  text-align: left;
-}
-
-.sign-up-button {
-  width: 100%;
-  height: 30px;
-  border-radius: 5px;
-  color: white;
-  background-color: rgb(0, 126, 229);
-}
-
-hr {
-  color: rgb(68, 68, 68)
-}
-
- .padding-inside-top-md {
-   padding-top: 50px;
- }
-
-.get-started-cell {
-  text-align: left;
-}
-
-.footer-cell {
-  text-align: left;
-}
-
-.foot-head {
+.h4-footer {
   color: rgb(153,153,153);
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.foot-ul {
-  list-style: none;
+.li-footer {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
 }
 
-.foot-li {
-  color: gray;
+.ul-footer {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Buttons */
+
+.primary-button {
+  background-color: rgb(0,126,229);
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.primary-button:hover {
+  background-color: rgb(0, 65, 117);
+}
+
+/* My standard vertical spacing classes */
+
+.padding-inside-top-xs {
+  padding-top: 10px;
+}
+
+.padding-inside-top-sm {
+  padding-top: 20px;
+}
+
+.padding-inside-top-md {
+  padding-top: 50px;
+}
+
+.padding-inside-top-lg {
+  padding-top: 150px;
+}
+
+.padding-inside-top-xl {
+  padding-top: 200px;
+}
+
+.padding-inside-bottom-xs {
+  padding-bottom: 10px;
+}
+
+.padding-inside-bottom-sm {
+  padding-bottom: 20px;
+}
+
+.padding-inside-bottom-md {
+  padding-bottom: 50px;
+}
+
+.padding-inside-bottom-lg {
+  padding-bottom: 150px;
+}
+
+.padding-inside-bottom-xl {
+  padding-bottom: 200px;
+}
+
+.margin-above-top-xs {
+  margin-top: 10px;
+}
+
+.margin-above-top-sm {
+  margin-top: 20px;
+}
+
+.margin-above-top-md {
+  margin-top: 50px;
+}
+
+.margin-above-top-lg {
+  margin-top: 150px;
+}
+
+.margin-below-bottom-xs {
+  margin-bottom: 10px;
+}
+
+.margin-below-bottom-sm {
+  margin-bottom: 20px;
+}
+
+.margin-below-bottom-md {
+  margin-bottom: 50px;
+}
+
+.margin-below-bottom-lg {
+  margin-bottom: 150px;
+}
+
+.margin-below-bottom-xl {
+  margin-bottom: 200px;
 }
